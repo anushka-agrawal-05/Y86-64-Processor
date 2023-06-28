@@ -1,0 +1,224 @@
+$date
+	Wed Mar  8 18:37:33 2023
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	10ps
+$end
+$scope module fetch_tb $end
+$var wire 64 ! f_predPC [63:0] $end
+$var wire 64 " D_valP [63:0] $end
+$var wire 64 # D_valC [63:0] $end
+$var wire 2 $ D_stat [1:0] $end
+$var wire 4 % D_rB [3:0] $end
+$var wire 4 & D_rA [3:0] $end
+$var wire 4 ' D_ifun [3:0] $end
+$var wire 4 ( D_icode [3:0] $end
+$var reg 1 ) D_bubble $end
+$var reg 1 * D_stall $end
+$var reg 64 + F_predPC [63:0] $end
+$var reg 1 , F_stall $end
+$var reg 1 - M_cnd $end
+$var reg 4 . M_icode [3:0] $end
+$var reg 64 / M_valA [63:0] $end
+$var reg 4 0 W_icode [3:0] $end
+$var reg 64 1 W_valM [63:0] $end
+$var reg 1 2 clk $end
+$scope module UUT $end
+$var wire 1 ) D_bubble $end
+$var wire 1 * D_stall $end
+$var wire 64 3 F_predPC [63:0] $end
+$var wire 1 , F_stall $end
+$var wire 1 - M_cnd $end
+$var wire 4 4 M_icode [3:0] $end
+$var wire 64 5 M_valA [63:0] $end
+$var wire 4 6 W_icode [3:0] $end
+$var wire 64 7 W_valM [63:0] $end
+$var wire 1 2 clk $end
+$var reg 4 8 D_icode [3:0] $end
+$var reg 4 9 D_ifun [3:0] $end
+$var reg 4 : D_rA [3:0] $end
+$var reg 4 ; D_rB [3:0] $end
+$var reg 2 < D_stat [1:0] $end
+$var reg 64 = D_valC [63:0] $end
+$var reg 64 > D_valP [63:0] $end
+$var reg 64 ? PC [63:0] $end
+$var reg 64 @ f_predPC [63:0] $end
+$var reg 4 A icode [3:0] $end
+$var reg 4 B ifun [3:0] $end
+$var reg 1 C imem_error $end
+$var reg 1 D instr_valid $end
+$var reg 80 E instruction [0:79] $end
+$var reg 8 F opcode [0:7] $end
+$var reg 4 G rA [3:0] $end
+$var reg 4 H rB [3:0] $end
+$var reg 8 I regids [0:7] $end
+$var reg 2 J stat [1:0] $end
+$var reg 64 K valC [63:0] $end
+$var reg 64 L valP [63:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b100010 L
+b0 K
+b0 J
+b100011 I
+b11 H
+b10 G
+b1100000 F
+b110000000100011000100000010000000000100000100000001000000000000xxxxxxxxxxxxxxxx E
+0D
+0C
+b0 B
+b110 A
+b100010 @
+b100000 ?
+bx >
+bx =
+bx <
+bx ;
+bx :
+bx 9
+bx 8
+bx 7
+bx 6
+bx 5
+bx 4
+b100000 3
+02
+bx 1
+bx 0
+bx /
+bx .
+x-
+0,
+b100000 +
+0*
+0)
+bx (
+bx '
+bx &
+bx %
+bx $
+bx #
+bx "
+b100010 !
+$end
+#1000
+b100011 !
+b100011 @
+b100011 L
+b1 A
+b10000 F
+b100000010000000000100000100000001000000000000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx E
+b100010 ?
+b0 $
+b0 <
+b100010 "
+b100010 >
+b0 #
+b0 =
+b11 %
+b11 ;
+b10 &
+b10 :
+b0 '
+b0 9
+b110 (
+b110 8
+b100010 +
+b100010 3
+12
+#2000
+02
+#3000
+b100101 !
+b100101 @
+b100101 L
+b100 H
+b0 G
+b100 I
+b10 A
+b100000 F
+b10000000000100000100000001000000000000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx E
+b100011 ?
+b100011 +
+b100011 3
+b100011 "
+b100011 >
+b1 (
+b1 8
+12
+#4000
+02
+#5000
+b100110 !
+b100110 @
+b100110 L
+b1 A
+b10000 F
+b100000001000000000000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx E
+b100101 ?
+b100101 "
+b100101 >
+b100 %
+b100 ;
+b0 &
+b0 :
+b10 (
+b10 8
+b100101 +
+b100101 3
+12
+#6000
+02
+#7000
+b100111 !
+b100111 @
+b100111 L
+b1000000000000xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx E
+b100110 ?
+b100110 +
+b100110 3
+b100110 "
+b100110 >
+b1 (
+b1 8
+12
+#8000
+02
+#9000
+b101000 !
+b101000 @
+b101000 L
+b1 J
+b0 A
+b0 F
+b0xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx E
+b100111 ?
+b100111 "
+b100111 >
+b100111 +
+b100111 3
+12
+#10000
+02
+#11000
+bx B
+bx A
+bx F
+bx E
+b101000 ?
+b101000 +
+b101000 3
+b1 $
+b1 <
+b101000 "
+b101000 >
+b0 (
+b0 8
+12
